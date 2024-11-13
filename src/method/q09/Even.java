@@ -4,7 +4,7 @@ public class Even {
     public static void main(String[] args){
         int num1 = 10;
         boolean result = checkEven(num1);
-        if(result==true){
+        if(result){
             System.out.println(num1+"は偶数です。");
         }
         else{
