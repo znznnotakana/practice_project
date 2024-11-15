@@ -19,7 +19,7 @@ public class Sparrow extends Animal {
 	public void showInfo() {
 		System.out.println("名前: "+getName());
 		System.out.println("年齢 "+getAge());
-		if(this.canFly) {
+		if(isCanFly()) {
 			System.out.println("飛べます");
 		}
 		else {

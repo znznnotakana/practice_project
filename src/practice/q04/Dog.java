@@ -17,7 +17,7 @@ public class Dog extends Animal {
 	public void showInfo() {
 		System.out.println("名前: "+getName());
 		System.out.println("年齢 "+getAge());
-		System.out.println("毛の色: "+furColor);
+		System.out.println("毛の色: "+getFurcolor());
 	}
 	public void cry() {
 		System.out.println("鳴き声: ワン");
